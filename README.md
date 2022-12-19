@@ -1,4 +1,4 @@
-# Python Folder XML Scraper 🔍🐍
+# Python: Folder XML Scraper 🔍🐍
 small helping tool to scrape a folder with .xml-files for a specific string inside an .xml
 created with help of the chat gpt ai 
 
