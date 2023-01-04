@@ -1,9 +1,9 @@
+# pyinstaller --onefile main.py
 import os
 import xml.etree.ElementTree as ET
 import time
 
 def search_xml():
-    # init
     dir_name = input('Enter the XML directory-path to be searched: ')
     search_string = input('Enter the String you want to search in all files: ')
     
@@ -18,11 +18,10 @@ def search_xml():
                 print('Found in file:', filename)
             else:
                 continue
+                
     print('\nDone searching')
                     
 if __name__ == '__main__':
-    # pyinstaller --onefile main.py
-    # fancy terminal message 
     print('''
         __   ____  __ _         _____                                
         \ \ / /  \/  | |       / ____|                               
